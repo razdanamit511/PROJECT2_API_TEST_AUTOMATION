@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+	<listeners>
+
+		<listener class-name="Listeners.TestListener"></listener>
+
+	</listeners>
+
+	<test thread-count="5" name="POST API">
+
+		<parameter name="Author" value="Amit"></parameter>
+		<parameter name="Device" value="Windows 11"></parameter>
+
+		<classes>
+			<class name="api.tests.user.Post_API_Tests" />
+		</classes>
+	</test> <!--Test -->
+	
+	
+		<test thread-count="5" name="GET API">
+
+		<parameter name="Author" value="Vicky"></parameter>
+		<parameter name="Device" value="Windows 10"></parameter>
+
+		<classes>
+			<class name="api.tests.user.Get_API_Tests" />
+		</classes>
+	</test> <!--Test -->
+	
+	
+		<test thread-count="5" name="PUT API">
+
+		<parameter name="Author" value="Billu"></parameter>
+		<parameter name="Device" value="Mac OS"></parameter>
+
+		<classes>
+			<class name="api.tests.user.Put_API_Tests" />
+		</classes>
+	</test> <!--Test -->
+	
+	
+		<test thread-count="5" name="DELETE API">
+
+		<parameter name="Author" value="Isha"></parameter>
+		<parameter name="Device" value="Linux"></parameter>
+
+		<classes>
+			<class name="api.tests.user.Delete_API_Tests" />
+		</classes>
+	</test> <!--Test -->
+</suite> <!--
+Suite -->

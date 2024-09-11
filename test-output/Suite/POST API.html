@@ -1,0 +1,215 @@
+<html>
+<head>
+<title>TestNG:  POST API</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>POST API</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>27/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Sep 11 15:22:47 IST 2024</td>
+</tr>
+<tr><td>Total time:</td><td>43 seconds (43027 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='api.test.datadriven.user.Post_API_Tests.PostTest3()'><b>PostTest3</b><br>Test class: api.test.datadriven.user.Post_API_Tests<br>Test method: Validate that response contains response body as per the req <br>Parameters: 107, testfirst7, testlast7, testuser7, test1@gmail.com, pass7, 9878686873, 0</td>
+<td></td>
+<td>1</td>
+<td>api.test.datadriven.user.Post_API_Tests@459e9125</td></tr>
+<tr>
+<td title='api.test.datadriven.user.Post_API_Tests.PostTest1()'><b>PostTest1</b><br>Test class: api.test.datadriven.user.Post_API_Tests<br>Test method: Validate that response code falls in 2XX category<br>Parameters: 107, testfirst7, testlast7, testuser7, test1@gmail.com, pass7, 9878686873, 0</td>
+<td></td>
+<td>1</td>
+<td>api.test.datadriven.user.Post_API_Tests@459e9125</td></tr>
+<tr>
+<td title='api.test.datadriven.user.Post_API_Tests.PostTest1()'><b>PostTest1</b><br>Test class: api.test.datadriven.user.Post_API_Tests<br>Test method: Validate that response code falls in 2XX category<br>Parameters: 105, testfirst5, testlast5, testuser5, test1@gmail.com, pass5, 9878686871, 0</td>
+<td></td>
+<td>1</td>
+<td>api.test.datadriven.user.Post_API_Tests@459e9125</td></tr>
+<tr>
+<td title='api.test.datadriven.user.Post_API_Tests.PostTest1()'><b>PostTest1</b><br>Test class: api.test.datadriven.user.Post_API_Tests<br>Test method: Validate that response code falls in 2XX category<br>Parameters: 108, testfirst8, testlast8, testuser8, test1@gmail.com, pass8, 9878686874, 1</td>
+<td></td>
+<td>1</td>
+<td>api.test.datadriven.user.Post_API_Tests@459e9125</td></tr>
+<tr>
+<td title='api.test.datadriven.user.Post_API_Tests.PostTest1()'><b>PostTest1</b><br>Test class: api.test.datadriven.user.Post_API_Tests<br>Test method: Validate that response code falls in 2XX category<br>Parameters: 104, testfirst4, testlast4, testuser4, test1@gmail.com, pass4, 9878686870, 1</td>
+<td></td>
+<td>1</td>
+<td>api.test.datadriven.user.Post_API_Tests@459e9125</td></tr>
+<tr>
+<td title='api.test.datadriven.user.Post_API_Tests.PostTest2()'><b>PostTest2</b><br>Test class: api.test.datadriven.user.Post_API_Tests<br>Test method: Validate that response code = 200 <br>Parameters: 104, testfirst4, testlast4, testuser4, test1@gmail.com, pass4, 9878686870, 1</td>
+<td></td>
+<td>1</td>
+<td>api.test.datadriven.user.Post_API_Tests@459e9125</td></tr>
+<tr>
+<td title='api.test.datadriven.user.Post_API_Tests.PostTest1()'><b>PostTest1</b><br>Test class: api.test.datadriven.user.Post_API_Tests<br>Test method: Validate that response code falls in 2XX category<br>Parameters: 109, testfirst9, testlast9, testuser9, test1@gmail.com, pass9, 9878686875, 0</td>
+<td></td>
+<td>1</td>
+<td>api.test.datadriven.user.Post_API_Tests@459e9125</td></tr>
+<tr>
+<td title='api.test.datadriven.user.Post_API_Tests.PostTest3()'><b>PostTest3</b><br>Test class: api.test.datadriven.user.Post_API_Tests<br>Test method: Validate that response contains response body as per the req <br>Parameters: 104, testfirst4, testlast4, testuser4, test1@gmail.com, pass4, 9878686870, 1</td>
+<td></td>
+<td>1</td>
+<td>api.test.datadriven.user.Post_API_Tests@459e9125</td></tr>
+<tr>
+<td title='api.test.datadriven.user.Post_API_Tests.PostTest3()'><b>PostTest3</b><br>Test class: api.test.datadriven.user.Post_API_Tests<br>Test method: Validate that response contains response body as per the req <br>Parameters: 109, testfirst9, testlast9, testuser9, test1@gmail.com, pass9, 9878686875, 0</td>
+<td></td>
+<td>1</td>
+<td>api.test.datadriven.user.Post_API_Tests@459e9125</td></tr>
+<tr>
+<td title='api.test.datadriven.user.Post_API_Tests.PostTest2()'><b>PostTest2</b><br>Test class: api.test.datadriven.user.Post_API_Tests<br>Test method: Validate that response code = 200 <br>Parameters: 103, testfirst3, testlast3, testuser3, test1@gmail.com, pass3, 9878686869, 0</td>
+<td></td>
+<td>1</td>
+<td>api.test.datadriven.user.Post_API_Tests@459e9125</td></tr>
+<tr>
+<td title='api.test.datadriven.user.Post_API_Tests.PostTest2()'><b>PostTest2</b><br>Test class: api.test.datadriven.user.Post_API_Tests<br>Test method: Validate that response code = 200 <br>Parameters: 107, testfirst7, testlast7, testuser7, test1@gmail.com, pass7, 9878686873, 0</td>
+<td></td>
+<td>1</td>
+<td>api.test.datadriven.user.Post_API_Tests@459e9125</td></tr>
+<tr>
+<td title='api.test.datadriven.user.Post_API_Tests.PostTest1()'><b>PostTest1</b><br>Test class: api.test.datadriven.user.Post_API_Tests<br>Test method: Validate that response code falls in 2XX category<br>Parameters: 102, testfirst2, testlast2, testuser2, test1@gmail.com, pass2, 9878686868, 1</td>
+<td></td>
+<td>1</td>
+<td>api.test.datadriven.user.Post_API_Tests@459e9125</td></tr>
+<tr>
+<td title='api.test.datadriven.user.Post_API_Tests.PostTest3()'><b>PostTest3</b><br>Test class: api.test.datadriven.user.Post_API_Tests<br>Test method: Validate that response contains response body as per the req <br>Parameters: 101, testfirst1, testlast1, testuser1, test1@gmail.com, pass1, 9878686867, 0</td>
+<td></td>
+<td>2</td>
+<td>api.test.datadriven.user.Post_API_Tests@459e9125</td></tr>
+<tr>
+<td title='api.test.datadriven.user.Post_API_Tests.PostTest3()'><b>PostTest3</b><br>Test class: api.test.datadriven.user.Post_API_Tests<br>Test method: Validate that response contains response body as per the req <br>Parameters: 106, testfirst6, testlast6, testuser6, test1@gmail.com, pass6, 9878686872, 1</td>
+<td></td>
+<td>1</td>
+<td>api.test.datadriven.user.Post_API_Tests@459e9125</td></tr>
+<tr>
+<td title='api.test.datadriven.user.Post_API_Tests.PostTest1()'><b>PostTest1</b><br>Test class: api.test.datadriven.user.Post_API_Tests<br>Test method: Validate that response code falls in 2XX category<br>Parameters: 103, testfirst3, testlast3, testuser3, test1@gmail.com, pass3, 9878686869, 0</td>
+<td></td>
+<td>1</td>
+<td>api.test.datadriven.user.Post_API_Tests@459e9125</td></tr>
+<tr>
+<td title='api.test.datadriven.user.Post_API_Tests.PostTest2()'><b>PostTest2</b><br>Test class: api.test.datadriven.user.Post_API_Tests<br>Test method: Validate that response code = 200 <br>Parameters: 109, testfirst9, testlast9, testuser9, test1@gmail.com, pass9, 9878686875, 0</td>
+<td></td>
+<td>1</td>
+<td>api.test.datadriven.user.Post_API_Tests@459e9125</td></tr>
+<tr>
+<td title='api.test.datadriven.user.Post_API_Tests.PostTest3()'><b>PostTest3</b><br>Test class: api.test.datadriven.user.Post_API_Tests<br>Test method: Validate that response contains response body as per the req <br>Parameters: 103, testfirst3, testlast3, testuser3, test1@gmail.com, pass3, 9878686869, 0</td>
+<td></td>
+<td>1</td>
+<td>api.test.datadriven.user.Post_API_Tests@459e9125</td></tr>
+<tr>
+<td title='api.test.datadriven.user.Post_API_Tests.PostTest3()'><b>PostTest3</b><br>Test class: api.test.datadriven.user.Post_API_Tests<br>Test method: Validate that response contains response body as per the req <br>Parameters: 108, testfirst8, testlast8, testuser8, test1@gmail.com, pass8, 9878686874, 1</td>
+<td></td>
+<td>1</td>
+<td>api.test.datadriven.user.Post_API_Tests@459e9125</td></tr>
+<tr>
+<td title='api.test.datadriven.user.Post_API_Tests.PostTest1()'><b>PostTest1</b><br>Test class: api.test.datadriven.user.Post_API_Tests<br>Test method: Validate that response code falls in 2XX category<br>Parameters: 106, testfirst6, testlast6, testuser6, test1@gmail.com, pass6, 9878686872, 1</td>
+<td></td>
+<td>1</td>
+<td>api.test.datadriven.user.Post_API_Tests@459e9125</td></tr>
+<tr>
+<td title='api.test.datadriven.user.Post_API_Tests.PostTest3()'><b>PostTest3</b><br>Test class: api.test.datadriven.user.Post_API_Tests<br>Test method: Validate that response contains response body as per the req <br>Parameters: 102, testfirst2, testlast2, testuser2, test1@gmail.com, pass2, 9878686868, 1</td>
+<td></td>
+<td>1</td>
+<td>api.test.datadriven.user.Post_API_Tests@459e9125</td></tr>
+<tr>
+<td title='api.test.datadriven.user.Post_API_Tests.PostTest1()'><b>PostTest1</b><br>Test class: api.test.datadriven.user.Post_API_Tests<br>Test method: Validate that response code falls in 2XX category<br>Parameters: 101, testfirst1, testlast1, testuser1, test1@gmail.com, pass1, 9878686867, 0</td>
+<td></td>
+<td>4</td>
+<td>api.test.datadriven.user.Post_API_Tests@459e9125</td></tr>
+<tr>
+<td title='api.test.datadriven.user.Post_API_Tests.PostTest2()'><b>PostTest2</b><br>Test class: api.test.datadriven.user.Post_API_Tests<br>Test method: Validate that response code = 200 <br>Parameters: 108, testfirst8, testlast8, testuser8, test1@gmail.com, pass8, 9878686874, 1</td>
+<td></td>
+<td>1</td>
+<td>api.test.datadriven.user.Post_API_Tests@459e9125</td></tr>
+<tr>
+<td title='api.test.datadriven.user.Post_API_Tests.PostTest3()'><b>PostTest3</b><br>Test class: api.test.datadriven.user.Post_API_Tests<br>Test method: Validate that response contains response body as per the req <br>Parameters: 105, testfirst5, testlast5, testuser5, test1@gmail.com, pass5, 9878686871, 0</td>
+<td></td>
+<td>1</td>
+<td>api.test.datadriven.user.Post_API_Tests@459e9125</td></tr>
+<tr>
+<td title='api.test.datadriven.user.Post_API_Tests.PostTest2()'><b>PostTest2</b><br>Test class: api.test.datadriven.user.Post_API_Tests<br>Test method: Validate that response code = 200 <br>Parameters: 102, testfirst2, testlast2, testuser2, test1@gmail.com, pass2, 9878686868, 1</td>
+<td></td>
+<td>1</td>
+<td>api.test.datadriven.user.Post_API_Tests@459e9125</td></tr>
+<tr>
+<td title='api.test.datadriven.user.Post_API_Tests.PostTest2()'><b>PostTest2</b><br>Test class: api.test.datadriven.user.Post_API_Tests<br>Test method: Validate that response code = 200 <br>Parameters: 105, testfirst5, testlast5, testuser5, test1@gmail.com, pass5, 9878686871, 0</td>
+<td></td>
+<td>1</td>
+<td>api.test.datadriven.user.Post_API_Tests@459e9125</td></tr>
+<tr>
+<td title='api.test.datadriven.user.Post_API_Tests.PostTest2()'><b>PostTest2</b><br>Test class: api.test.datadriven.user.Post_API_Tests<br>Test method: Validate that response code = 200 <br>Parameters: 106, testfirst6, testlast6, testuser6, test1@gmail.com, pass6, 9878686872, 1</td>
+<td></td>
+<td>1</td>
+<td>api.test.datadriven.user.Post_API_Tests@459e9125</td></tr>
+<tr>
+<td title='api.test.datadriven.user.Post_API_Tests.PostTest2()'><b>PostTest2</b><br>Test class: api.test.datadriven.user.Post_API_Tests<br>Test method: Validate that response code = 200 <br>Parameters: 101, testfirst1, testlast1, testuser1, test1@gmail.com, pass1, 9878686867, 0</td>
+<td></td>
+<td>1</td>
+<td>api.test.datadriven.user.Post_API_Tests@459e9125</td></tr>
+</table><p>
+</body>
+</html>
